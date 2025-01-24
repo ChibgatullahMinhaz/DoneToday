@@ -1,8 +1,25 @@
 @media screen and (max-width:576px) {
     .banner{
         flex-direction: column;
+        min-width: 100%;
+        padding: 2rem;
+    }
+    .header_image{
+        max-width: 100%;
     }
     .header_image img{
-        min-width: 60%;
+        min-width: 20%;
         }
+        .header_content h1 {
+            color: #121212;
+            font-family: var(--interFamily);
+            font-size: 2rem;
+            font-weight: bold;
+            min-width: 100%;
+          }
+        .header_content p{
+            font-size: 0.6rem;
+            font-weight: bold;
+            min-width: 100%;
+          }
 }

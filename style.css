@@ -21,6 +21,7 @@
   padding: 1rem;
   border-radius: 0.3rem;
   cursor: pointer;
+  color: white;
 }
 /* header code */
 header {
@@ -48,12 +49,12 @@ header {
   font-weight: 300;
   font-size: 1.1rem;
   max-width: 60%;
-  margin-top: 2rem;
+  margin-top: 0.7rem;
 }
 .header_btns{
     display: flex;
     gap: 2rem;
-    margin-top: 2rem;
+    margin-top: 0.9rem;
 }
 .watch_btn{
     color: #707070;
@@ -72,5 +73,5 @@ header {
     flex: 1;
 }
 .header_image img{
-min-width: 90%;
+max-width: 100%;
 }
