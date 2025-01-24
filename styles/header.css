@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* header code */
+header {
+    background-color: var(--primaryColor);
+  }
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .header_content{
+      flex: 2;
+  }
+  .header_content h1 {
+    color: #121212;
+    font-family: var(--interFamily);
+    font-size: 5rem;
+    font-weight: bold;
+  }
+  .header_content p {
+    color: #707070;
+    font-family: var(--poppinsFamily);
+    font-weight: 300;
+    font-size: 1.1rem;
+    max-width: 60%;
+    margin-top: 0.7rem;
+  }
+  .header_btns{
+      display: flex;
+      gap: 2rem;
+      margin-top: 0.9rem;
+  }
+  .watch_btn{
+      color: #707070;
+      font-family: var(--interFamily);
+      font-size: 1.1rem;
+      font-weight: 600;
+      background: transparent;
+      cursor: pointer;
+  }
+  .header_image{
+      background-image: url("image/Ellipse\ 257.png"), url("image/Ellipse\ 257.png");
+      background-position: left bottom;
+      background-repeat: no-repeat;
+      background-size: contain;
+      max-width: 100%;
+      flex: 1;
+  }
+  .header_image img{
+  max-width: 100%;
+  }

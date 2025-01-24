@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --interFamily: "Inter", serif;
+  --poppinsFamily: "Poppins", serif;
+  text-decoration: none;
+  --primaryColor: #fafafa;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.btn {
+  background-color: #ff5959;
+  font-family: var(--interFamily);
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  color: white;
+}
+p{
+   color: #707070;
+}
+section{
+  max-width: 90%;
+  margin: 0 auto;
+}
+/* donate section */
+.donate{
+  text-align: center;
+  margin-top: 3rem;
+}
+.donate h1{
+  font-family: var(--interFamily);
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #121212;
+  margin-bottom: 1rem;
+}
+.donate_des{
+font-family: var(--poppinsFamily);
+font-size: 1.1rem;
+max-width: 60%;
+margin:  auto;
+margin-bottom: 2rem;
+}
+.donate_amount{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+#dne_1, #done_2, #Done_3,#done_4, #done_5{
+  color: #707070;
+font-family: var(--interFamily);
+font-size: 1.9rem;
+font-weight: bold;
+background-color: #FAFAFA;
+padding: 2rem 1rem;
+border-radius: 5px;
+border: 2px solid #FAFAFA;
+transition: all 0.2s ease-in-out;
+}
+#dne_1:hover, #done_2:hover, #Done_3:hover,#done_4:hover, #done_5:hover{
+  background-color: #FFEEEE;
+  cursor: progress;
+  color: #FF5959;
+  border: 2px solid #FF5959;
+}
+.amount_feild{
+  max-width: 80%;
+  padding: 2rem;
+  margin: 0 auto;
+}
+.amount_feild input{
+  min-width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #FF5959;
+  font-family: var(--interFamily);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 2rem;
+  border-top: 1px solid #707070;
+  border-left:1px solid  burlywood;
+  border-right: 1px solid wheat;
+  border-radius: 6px;
+}
