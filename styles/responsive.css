@@ -46,4 +46,15 @@
   .donate_pan_des{
     max-width: 90%;
   }
+  .about_one{
+    flex-direction: column;
+  }
+  .about_image_one, .about_image_two {
+    margin: auto;
+    min-width: 100%;
+    
+  }
+  .about_image_one img, .about_image_two img{
+    min-width: 100%;
+  }
 }
