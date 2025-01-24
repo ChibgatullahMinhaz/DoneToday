@@ -91,3 +91,56 @@ transition: all 0.2s ease-in-out;
   border-right: 1px solid wheat;
   border-radius: 6px;
 }
+/* donate plan  */
+.doante_plan{
+  margin-bottom: 3rem;
+}
+.doante_plan{
+  margin-top: 2rem;
+}
+.doante_plan h1{
+  font-family: var(--interFamily);
+  font-size: 2.9rem;
+  font-weight: bold;
+  color: #121212;
+  text-align: center;
+}
+.donate_pan_des{
+  text-align: center;
+  max-width: 60%;
+  margin: 2rem auto;
+
+}
+.donate_paln_cards{
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.plan_card{
+  padding: 3rem 1.6rem;
+  text-align: left;
+  border-radius: 10px;
+}
+.plan_card img, h2, p{
+  margin-bottom: 1rem;
+  font-family: var(--interFamily);
+  font-weight: 600;
+} 
+.plan_card p{
+  font-family: var(--poppinsFamily);
+  font-size: 300;
+  font-weight: normal;
+}
+#card_1{
+  background-color: #edf5f6;
+}
+#card_2{
+  background-color: #ffeeee;
+}
+#card_3{
+  background-color: #fff4d6;
+
+}
