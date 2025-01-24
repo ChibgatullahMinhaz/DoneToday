@@ -57,4 +57,13 @@
   .about_image_one img, .about_image_two img{
     min-width: 100%;
   }
+  .update_des{
+    max-width: 90%;  
+  }
+  .email{
+    background-color: #fff;
+  }
+  .email input{
+    border: 1px solid orangered;
+  }
 }
