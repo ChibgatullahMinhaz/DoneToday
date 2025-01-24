@@ -1,0 +1,8 @@
+@media screen and (max-width:576px) {
+    .banner{
+        flex-direction: column;
+    }
+    .header_image img{
+        min-width: 60%;
+        }
+}
